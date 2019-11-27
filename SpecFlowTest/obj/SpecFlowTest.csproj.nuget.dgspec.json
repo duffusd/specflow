@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\src\\ptAcct\\POC\\specflow\\SpecFlowTest\\SpecFlowTest.csproj": {}
+  },
+  "projects": {
+    "C:\\src\\ptAcct\\POC\\specflow\\SpecFlowTest\\SpecFlowTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\ptAcct\\POC\\specflow\\SpecFlowTest\\SpecFlowTest.csproj",
+        "projectName": "SpecFlowTest",
+        "projectPath": "C:\\src\\ptAcct\\POC\\specflow\\SpecFlowTest\\SpecFlowTest.csproj",
+        "packagesPath": "C:\\Users\\US31560\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\ptAcct\\POC\\specflow\\SpecFlowTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\US31560\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.accretivehealth.local/nuget/api/v2": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.9.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "Microsoft.VisualStudio.Threading": {
+              "target": "Package",
+              "version": "[16.4.33, )"
+            },
+            "Microsoft.VisualStudio.Validation": {
+              "target": "Package",
+              "version": "[15.5.31, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.1.67, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.1.67, )"
+            },
+            "SpecRun.SpecFlow": {
+              "target": "Package",
+              "version": "[3.1.36, )"
+            },
+            "System.Diagnostics.Process": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

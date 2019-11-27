@@ -1,0 +1,192 @@
+﻿2019-11-27T08:19:48.0546945-07:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-11-27T08:19:48.0548511-07:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.1.36 in Framework netcore30 in x64 mode execution started
+2019-11-27T08:19:48.0548540-07:00;VSTestExecutionThread;Info;TestAdapter Location: C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-11-27T08:19:48.0965834-07:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\SpecFlowTest.dll
+2019-11-27T08:19:48.0969456-07:00;VSTestExecutionThread;Info;Output folder configured to "C:\src\ptAcct\POC\specflow\SpecFlowTest\TestResults" (default)
+2019-11-27T08:19:48.0970522-07:00;VSTestExecutionThread;Info;Profile: 
+2019-11-27T08:19:48.1407813-07:00;VSTestExecutionThread;Info;Log file path: C:\src\ptAcct\POC\specflow\SpecFlowTest\TestResults\Unnamed project__2019-11-27T081948.log
+2019-11-27T08:19:48.1773888-07:00;Thread#12;Info;Checking license
+2019-11-27T08:19:48.1851546-07:00;Thread#12;Info;License check completed
+2019-11-27T08:19:48.1853476-07:00;Thread#12;Info;starting test run
+2019-11-27T08:19:48.1926499-07:00;Thread#12;Info;Discovering target: Default
+2019-11-27T08:19:48.1928312-07:00;Thread#12;Info;Discovering tests from assembly: C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\SpecFlowTest.dll
+2019-11-27T08:19:48.2892167-07:00;Thread#12;Info;Discovered tests from assembly: C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\SpecFlowTest.dll
+2019-11-27T08:19:48.2905859-07:00:Test Suite Dump
+2019-11-27T08:19:48.2925588-07:00:#0: Unnamed project/ - 
+2019-11-27T08:19:48.2926014-07:00:#1: Default - 
+2019-11-27T08:19:48.2926038-07:00:#2: SpecFlowTest - 
+2019-11-27T08:19:48.2926063-07:00:#3: PatientAccountCases - 
+2019-11-27T08:19:48.2941054-07:00:#4: Get Patient Account From R1.Insight.PatientAccount Service - TestAssembly:SpecFlowTest/Feature:PatientAccountCases/Scenario:Get+Patient+Account+From+R1.Insight.PatientAccount+Service
+2019-11-27T08:19:48.2941990-07:00:End: Test Suite Dump
+2019-11-27T08:19:48.3122427-07:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-27T08:19:48.3147692-07:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-11-27T08:19:48.3149050-07:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-11-27T08:19:48.3188216-07:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-27T08:19:48.3188521-07:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-11-27T08:19:48.3188565-07:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-11-27T08:19:48.3188608-07:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-11-27T08:19:48.3198552-07:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-11-27T08:19:48.3217675-07:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-11-27T08:19:48.3253797-07:00:Thread #0: creating new test thread executor for SpecFlowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-11-27T08:19:48.3289477-07:00:Thread #0: Creating test assembly executor for execution model OutProc
+2019-11-27T08:19:48.3292148-07:00:Thread #0: Creating test assembly executor for execution model OutProc
+2019-11-27T08:19:48.3331183-07:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2019-11-27T08:19:48.3353646-07:00:starting Out Of Process Executor
+2019-11-27T08:19:48.3370150-07:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-11-27T08:19:48.3407387-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0'
+2019-11-27T08:19:48.3411711-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Validation.dll'
+2019-11-27T08:19:48.3413103-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Validation.exe'
+2019-11-27T08:19:48.3413520-07:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0'
+2019-11-27T08:19:48.3422145-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2019-11-27T08:19:48.3422266-07:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2019-11-27T08:19:48.3483881-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0'
+2019-11-27T08:19:48.3484089-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0\Microsoft.VisualStudio.Validation.dll'
+2019-11-27T08:19:48.3485370-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0\Microsoft.VisualStudio.Validation.exe'
+2019-11-27T08:19:48.3485811-07:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0'
+2019-11-27T08:19:48.3489103-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0'
+2019-11-27T08:19:48.3489433-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0\Microsoft.VisualStudio.Validation.dll'
+2019-11-27T08:19:48.3490723-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0\Microsoft.VisualStudio.Validation.exe'
+2019-11-27T08:19:48.3491144-07:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0'
+2019-11-27T08:19:48.3495978-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0'
+2019-11-27T08:19:48.3496163-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0\Microsoft.VisualStudio.Validation.dll'
+2019-11-27T08:19:48.3496880-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0\Microsoft.VisualStudio.Validation.exe'
+2019-11-27T08:19:48.3497452-07:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0'
+2019-11-27T08:19:48.3523911-07:00:Starting callback TCP Rpc server
+2019-11-27T08:19:48.3772094-07:00:Asynchronously starting background TCP Rpc Server on port 32768
+2019-11-27T08:19:48.3772856-07:00:Started callback TCP Rpc server on port 32768
+2019-11-27T08:19:48.3772904-07:00:Starting logger TCP Rpc server
+2019-11-27T08:19:48.3813971-07:00:Asynchronously starting background TCP Rpc Server on port 32769
+2019-11-27T08:19:48.3814359-07:00:Started logger TCP Rpc server on port 32769
+2019-11-27T08:19:48.4735789-07:00:Executing test executor at 'C:\Program Files\dotnet\dotnet.exe' 'exec "C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\SpecFlowPlusRunner\netcoreapp3.0\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_0.dll" --remoteRunnerPid 24984 --uniqueId "2019-11-27T081948" --outputFolder "C:\src\ptAcct\POC\specflow\SpecFlowTest\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0'
+2019-11-27T08:19:48.4850365-07:00:Executor with PID 33752 has been started successfully.
+2019-11-27T08:19:48.4896871-07:00:Out of Process Executor 33752 started
+2019-11-27T08:19:48.4897123-07:00:Waiting for endpoint
+2019-11-27T08:19:48.8740839-07:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-11-27T08:19:48.8741513-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0'
+2019-11-27T08:19:48.8741542-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Threading.dll'
+2019-11-27T08:19:48.8741911-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Threading.exe'
+2019-11-27T08:19:48.8742357-07:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0'
+2019-11-27T08:19:48.8742429-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2019-11-27T08:19:48.8742454-07:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2019-11-27T08:19:48.8750482-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0'
+2019-11-27T08:19:48.8750652-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0\Microsoft.VisualStudio.Threading.dll'
+2019-11-27T08:19:48.8751118-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0\Microsoft.VisualStudio.Threading.exe'
+2019-11-27T08:19:48.8751428-07:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0'
+2019-11-27T08:19:48.8752984-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0'
+2019-11-27T08:19:48.8753057-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0\Microsoft.VisualStudio.Threading.dll'
+2019-11-27T08:19:48.8753498-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0\Microsoft.VisualStudio.Threading.exe'
+2019-11-27T08:19:48.8753804-07:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0'
+2019-11-27T08:19:48.8755389-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0'
+2019-11-27T08:19:48.8755467-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0\Microsoft.VisualStudio.Threading.dll'
+2019-11-27T08:19:48.8755956-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0\Microsoft.VisualStudio.Threading.exe'
+2019-11-27T08:19:48.8756480-07:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0'
+2019-11-27T08:19:49.0873267-07:00:Remote executor port received: 32770
+2019-11-27T08:19:49.0878348-07:00:Creating executor TCP client on port 32770
+2019-11-27T08:19:49.0883492-07:00:Created executor TCP client on port 32770
+2019-11-27T08:19:49.0883594-07:00:Connecting to remote executor TCP server
+2019-11-27T08:19:49.0896787-07:00:Connected remote executor TCP server
+2019-11-27T08:19:49.0899502-07:00:trying to connect to Out of Process Executor the 1 attempt
+2019-11-27T08:19:49.0899973-07:00:Connection to Out of Process Executor established in the 1 attempt
+2019-11-27T08:19:49.2425655-07:00:2019-11-27T08:19:49.2411542-07:00:OutOfProcessTestAssemblyExecutor: initialized for C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\SpecFlowTest.dll on test thread #0
+2019-11-27T08:19:49.2473976-07:00:Endpoint 33752 started
+2019-11-27T08:19:49.2680541-07:00:2019-11-27T08:19:49.2675609-07:00:OutOfProcessTestAssemblyExecutor: running tests...
+2019-11-27T08:19:49.3950722-07:00:2019-11-27T08:19:49.3945099-07:00:Thread#0:T:2019-11-27T08:19:49.3929811-07:00:Assembly resolving TechTalk.SpecFlow, Version=3.1.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2019-11-27T08:19:49.4008032-07:00:2019-11-27T08:19:49.4003813-07:00:Thread#0:T:2019-11-27T08:19:49.4000870-07:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' in folder 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0'
+2019-11-27T08:19:49.4127930-07:00:2019-11-27T08:19:49.4122432-07:00:Thread#0:T:2019-11-27T08:19:49.4119208-07:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' to 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\TechTalk.SpecFlow.dll'
+2019-11-27T08:19:49.4146160-07:00:2019-11-27T08:19:49.4141370-07:00:Thread#0:T:2019-11-27T08:19:49.4137346-07:00:[AssemblyCache] Found file 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\TechTalk.SpecFlow.dll' for assembly 'TechTalk.SpecFlow'
+2019-11-27T08:19:49.4171697-07:00:2019-11-27T08:19:49.4167198-07:00:Thread#0:T:2019-11-27T08:19:49.4165811-07:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\TechTalk.SpecFlow.dll
+2019-11-27T08:19:49.5308493-07:00:2019-11-27T08:19:49.5303378-07:00:Thread#0:T:-> Loading plugin C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-11-27T08:19:49.5346728-07:00:2019-11-27T08:19:49.5338986-07:00:Thread#0:T:2019-11-27T08:19:49.5336168-07:00:Assembly resolving TechTalk.SpecFlow, Version=3.1.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2019-11-27T08:19:49.5412745-07:00:2019-11-27T08:19:49.5407572-07:00:Thread#0:T:-> Using default config
+2019-11-27T08:19:49.5536339-07:00:2019-11-27T08:19:49.5530747-07:00:Thread#0:T:2019-11-27T08:19:49.5527243-07:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2019-11-27T08:19:49.5552726-07:00:2019-11-27T08:19:49.5548221-07:00:Thread#0:T:2019-11-27T08:19:49.5545298-07:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' in folder 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0'
+2019-11-27T08:19:49.5568159-07:00:2019-11-27T08:19:49.5563383-07:00:Thread#0:T:2019-11-27T08:19:49.5560440-07:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' to 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\Cucumber.Messages.dll'
+2019-11-27T08:19:49.5588265-07:00:2019-11-27T08:19:49.5583568-07:00:Thread#0:T:2019-11-27T08:19:49.5579964-07:00:[AssemblyCache] Found file 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\Cucumber.Messages.dll' for assembly 'Cucumber.Messages'
+2019-11-27T08:19:49.5610747-07:00:2019-11-27T08:19:49.5606539-07:00:Thread#0:T:2019-11-27T08:19:49.5603077-07:00:[AssemblyCache] Resolved 'Cucumber.Messages' to C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\Cucumber.Messages.dll
+2019-11-27T08:19:49.5623116-07:00:2019-11-27T08:19:49.5619228-07:00:Thread#0:T:2019-11-27T08:19:49.5617196-07:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2019-11-27T08:19:49.5638680-07:00:2019-11-27T08:19:49.5634642-07:00:Thread#0:T:2019-11-27T08:19:49.5631223-07:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' in folder 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0'
+2019-11-27T08:19:49.5650181-07:00:2019-11-27T08:19:49.5646810-07:00:Thread#0:T:2019-11-27T08:19:49.5644299-07:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' to 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\Google.Protobuf.dll'
+2019-11-27T08:19:49.5669832-07:00:2019-11-27T08:19:49.5661235-07:00:Thread#0:T:2019-11-27T08:19:49.5659494-07:00:[AssemblyCache] Found file 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\Google.Protobuf.dll' for assembly 'Google.Protobuf'
+2019-11-27T08:19:49.5690893-07:00:2019-11-27T08:19:49.5686059-07:00:Thread#0:T:2019-11-27T08:19:49.5684047-07:00:[AssemblyCache] Resolved 'Google.Protobuf' to C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\Google.Protobuf.dll
+2019-11-27T08:19:49.5783267-07:00:2019-11-27T08:19:49.5777536-07:00:Thread#0:T:2019-11-27T08:19:49.5774918-07:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-11-27T08:19:49.5793706-07:00:2019-11-27T08:19:49.5789042-07:00:Thread#0:T:2019-11-27T08:19:49.5787698-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' in folder 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0'
+2019-11-27T08:19:49.5805211-07:00:2019-11-27T08:19:49.5801303-07:00:Thread#0:T:2019-11-27T08:19:49.5799146-07:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2019-11-27T08:19:49.5817003-07:00:2019-11-27T08:19:49.5813434-07:00:Thread#0:T:2019-11-27T08:19:49.5812498-07:00:[AssemblyCache] Found file 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll' for assembly 'Microsoft.VisualStudio.TestPlatform.ObjectModel'
+2019-11-27T08:19:49.5837521-07:00:2019-11-27T08:19:49.5833443-07:00:Thread#0:T:2019-11-27T08:19:49.5832023-07:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+2019-11-27T08:19:49.6110277-07:00:2019-11-27T08:19:49.6104149-07:00:Thread#0:T:2019-11-27T08:19:49.6101778-07:00:Assembly resolving Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27
+2019-11-27T08:19:49.6122191-07:00:2019-11-27T08:19:49.6118603-07:00:Thread#0:T:2019-11-27T08:19:49.6115951-07:00:[AssemblyCache] Trying to resolve 'Utf8Json' in folder 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0'
+2019-11-27T08:19:49.6133705-07:00:2019-11-27T08:19:49.6129517-07:00:Thread#0:T:2019-11-27T08:19:49.6127373-07:00:[AssemblyCache] Trying to resolve 'Utf8Json' to 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\Utf8Json.dll'
+2019-11-27T08:19:49.6144658-07:00:2019-11-27T08:19:49.6141410-07:00:Thread#0:T:2019-11-27T08:19:49.6139718-07:00:[AssemblyCache] Found file 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\Utf8Json.dll' for assembly 'Utf8Json'
+2019-11-27T08:19:49.6166802-07:00:2019-11-27T08:19:49.6162588-07:00:Thread#0:T:2019-11-27T08:19:49.6159325-07:00:[AssemblyCache] Resolved 'Utf8Json' to C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\Utf8Json.dll
+2019-11-27T08:19:49.8232752-07:00:Thread#0: Test #4/0 is started on thread #0
+2019-11-27T08:19:49.8907568-07:00:2019-11-27T08:19:49.8899627-07:00:Thread#0:B:Given Patient Account 636573 Exists in temp database
+2019-11-27T08:19:49.9133416-07:00:2019-11-27T08:19:49.9128282-07:00:Thread#0:T:done: Bindings.GivenPatientAccountExistsInTempDatabase(636573, "temp") (0.0s)
+2019-11-27T08:19:49.9151215-07:00:2019-11-27T08:19:49.9145969-07:00:Thread#0:B:When get patient account from PatientAccountService
+2019-11-27T08:19:49.9175244-07:00:2019-11-27T08:19:49.9170255-07:00:Thread#0:T:done: Bindings.WhenGetPatientAccountFromPatientAccountService() (0.0s)
+2019-11-27T08:19:49.9185829-07:00:2019-11-27T08:19:49.9182047-07:00:Thread#0:B:Then Patient Account Information Should Be Retrieved
+2019-11-27T08:19:49.9205969-07:00:2019-11-27T08:19:49.9201809-07:00:Thread#0:T:2019-11-27T08:19:49.9199331-07:00:Assembly resolving FluentAssertions, Version=5.9.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a
+2019-11-27T08:19:49.9216078-07:00:2019-11-27T08:19:49.9212480-07:00:Thread#0:T:2019-11-27T08:19:49.9210129-07:00:[AssemblyCache] Trying to resolve 'FluentAssertions' in folder 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0'
+2019-11-27T08:19:49.9226095-07:00:2019-11-27T08:19:49.9223438-07:00:Thread#0:T:2019-11-27T08:19:49.9221116-07:00:[AssemblyCache] Trying to resolve 'FluentAssertions' to 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\FluentAssertions.dll'
+2019-11-27T08:19:49.9236107-07:00:2019-11-27T08:19:49.9233658-07:00:Thread#0:T:2019-11-27T08:19:49.9231322-07:00:[AssemblyCache] Found file 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\FluentAssertions.dll' for assembly 'FluentAssertions'
+2019-11-27T08:19:49.9249756-07:00:2019-11-27T08:19:49.9247298-07:00:Thread#0:T:2019-11-27T08:19:49.9246532-07:00:[AssemblyCache] Resolved 'FluentAssertions' to C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\FluentAssertions.dll
+2019-11-27T08:19:49.9288679-07:00:2019-11-27T08:19:49.9284888-07:00:Thread#0:T:done: Bindings.ThenPatientAccountInformationShouldBeRetrieved() (0.0s)
+2019-11-27T08:19:49.9299690-07:00:2019-11-27T08:19:49.9296776-07:00:Thread#0:B:And Validated
+2019-11-27T08:19:49.9314086-07:00:2019-11-27T08:19:49.9309969-07:00:Thread#0:T:done: Bindings.ThenValidated() (0.0s)
+2019-11-27T08:19:49.9478003-07:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-27T08:19:49.9478570-07:00:Thread#:Scheduler: at the end of normal test queue
+2019-11-27T08:19:49.9478609-07:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-11-27T08:19:49.9478643-07:00:Thread#0:Scheduler: No more tests for thread
+2019-11-27T08:19:50.0085393-07:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 0.183969 seconds
+2019-11-27T08:19:50.0182163-07:00:2019-11-27T08:19:50.0179559-07:00:Got Deinitialize Signal
+2019-11-27T08:19:50.0224694-07:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2019-11-27T08:19:50.0231914-07:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2019-11-27T08:19:50.0251371-07:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2019-11-27T08:19:50.0277044-07:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.1.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2019-11-27T08:19:50.0277722-07:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0'
+2019-11-27T08:19:50.0277770-07:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\System.Diagnostics.Process.resources.dll'
+2019-11-27T08:19:50.0278357-07:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0\System.Diagnostics.Process.resources.exe'
+2019-11-27T08:19:50.0278842-07:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\src\ptAcct\POC\specflow\SpecFlowTest\bin\Debug\netcoreapp3.0'
+2019-11-27T08:19:50.0278944-07:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2019-11-27T08:19:50.0278978-07:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2019-11-27T08:19:50.0292854-07:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0'
+2019-11-27T08:19:50.0292976-07:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0\System.Diagnostics.Process.resources.dll'
+2019-11-27T08:19:50.0293979-07:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0\System.Diagnostics.Process.resources.exe'
+2019-11-27T08:19:50.0294299-07:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0'
+2019-11-27T08:19:50.0296108-07:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0'
+2019-11-27T08:19:50.0296185-07:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0\System.Diagnostics.Process.resources.dll'
+2019-11-27T08:19:50.0296825-07:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0\System.Diagnostics.Process.resources.exe'
+2019-11-27T08:19:50.0297150-07:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0'
+2019-11-27T08:19:50.0299400-07:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0'
+2019-11-27T08:19:50.0299468-07:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0\System.Diagnostics.Process.resources.dll'
+2019-11-27T08:19:50.0300084-07:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0\System.Diagnostics.Process.resources.exe'
+2019-11-27T08:19:50.0300428-07:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0'
+2019-11-27T08:19:50.0308588-07:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.1.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2019-11-27T08:19:50.0389620-07:00:Thread#-1:Scheduler: get next test for thread -1
+2019-11-27T08:19:50.0390071-07:00:Thread#:Scheduler: at the end of normal test queue
+2019-11-27T08:19:50.0390100-07:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-11-27T08:19:50.0414023-07:00;Thread#12;Info;test run finished
+2019-11-27T08:19:50.0415933-07:00;Thread#12;Info;publishing test results
+2019-11-27T08:19:50.0417829-07:00;Thread#12;Info;Not publishing results.
+2019-11-27T08:19:50.0418566-07:00;Thread#12;Info;test results published
+2019-11-27T08:19:50.0419347-07:00;Thread#12;Info;generating reports
+2019-11-27T08:19:50.1440040-07:00;Thread#12;Info;Starting external report generation process
+2019-11-27T08:19:50.5347984-07:00;Thread#12;Error;Could not generate test run result reports. An error occurred in the generator.
+2019-11-27T08:19:50.5355873-07:00;Thread#12;Error;External program returned exit code '-1'
+2019-11-27T08:19:50.5359436-07:00;Thread#12;Info;Failed generating reports
+2019-11-27T08:19:50.5446825-07:00:Total: 1
+2019-11-27T08:19:50.5467931-07:00:Succeeded: 1
+2019-11-27T08:19:50.5472614-07:00:Ignored: 0
+2019-11-27T08:19:50.5476323-07:00:Pending: 0
+2019-11-27T08:19:50.5476440-07:00:Skipped: 0
+2019-11-27T08:19:50.5480382-07:00:Failed: 0
+2019-11-27T08:19:50.5543266-07:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========
